@@ -1,13 +1,8 @@
 {
 	"manifest_version": 3,
-	"name": "Kev Image Replacer",
+	"name": "Kev's Image Replacer",
 	"version": "1.0",
-	"description": "Replaces images on websites with Kev. Follow @kevfaveri on X. Created by idrewdev.",
-	"icons": {
-		"16": "images/kev_3.png",
-		"48": "images/kev_3.png",
-		"128": "images/kev_3.png"
-	},
+	"description": "Replaces images on websites with random images of Kev!",
 	"permissions": ["activeTab"],
 	"action": {
 		"default_popup": "popup.html"
@@ -20,13 +15,7 @@
 	],
 	"web_accessible_resources": [
 		{
-			"resources": [
-				"images/kev_confuse.JPG",
-				"images/kev_old.JPG",
-				"images/kev_plumber.JPG",
-				"images/kev_wife.JPG",
-				"images/kev.JPG"
-			],
+			"resources": ["images/*"],
 			"matches": ["<all_urls>"]
 		}
 	]
